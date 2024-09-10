@@ -1,3 +1,4 @@
+import AllProjectsSection from "./Components/AllProjectsSection";
 import ProjectsHeader from "./Components/ProjectHeader";
 import ProjectsSubHeader from "./Components/ProjectSubHeader";
 
@@ -13,6 +14,7 @@ function AllProjects() {
             <div className="w-[78%] p-10 flex flex-col gap-3 border">
                 <ProjectsHeader/>
                 <ProjectsSubHeader/>
+                <AllProjectsSection/>
             </div>
         )
     }

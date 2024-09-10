@@ -12,7 +12,7 @@ function ProjectsSubHeader(){
 
     function MyprojectsText(){
         return (
-            <p className="text-slate-300 text-[26px] font-bold">My Projects</p>
+            <p className="text-slate-800 text-[26px] font-bold">My Projects</p>
         );
     }
 
